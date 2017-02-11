@@ -88,7 +88,7 @@ header h1{
   font-size: 30px;
   float: left;
   font-weight: 800;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 .desktop-nav{
   display: none;
@@ -102,10 +102,10 @@ header h1{
 /* Main section
 /*******************************************/
 section {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
-  padding: 50px;
-  margin-left: 5px 50px ;
+  padding: 40px 40px;
+  margin: 0;
 }
 aside {
   width: 100%;
@@ -122,7 +122,8 @@ h2{
   font-weight: 500;
   color: #033048;
   text-align: justify;
-  word-spacing: -2px;
+  word-spacing: -4px;
+  line-height: 40px;
 }
 h3 {
   font-weight: 800;
@@ -147,6 +148,7 @@ p {
   text-align: left;
   font-weight: 300;
   font-size: 22px;
+  color: #606161;
 }
 aside p{ 
   font-size: 16px;
@@ -164,6 +166,7 @@ aside p{
 .sign-up{
   background-color: #f9e42e;
   padding: 20px;
+  margin-top: 20px;
 }
 button{
   padding: 5px 50px;
@@ -177,6 +180,7 @@ button{
 footer {
   background-color: #121212;
   padding: 30px;
+  color: white;
 }
 footer img{
   height: auto;
@@ -213,7 +217,7 @@ h4 {
   padding: 0 50px;
   font-size: 15px;
   margin: 10px;
-  font-weight: 300;
+  font-weight: 800;
   }
   .mobile-nav {
     display: none;
@@ -223,7 +227,8 @@ h4 {
   }
   section {
     width: 70%;
-    margin: 0 0 0 50px;
+    margin: 10px 0 10px 60px;
+    padding: 20px 0;
   }
   aside {
     width: 20%;
