@@ -83,18 +83,14 @@ nav ul{
   float: right;
   color: #f9e42e;
 }
-nav li{
-  display: inline-block;
-  padding: 0 50px;
-  font-size: 15px;
-  margin: 10px;
-  font-weight: 300;
-}
 header h1{
   color: white;
   font-size: 24px;
   float: left;
   font-weight: 800;
+}
+.desktop-nav{
+  display: none;
 }
 .mobile-nav{
   float: right;
@@ -186,6 +182,16 @@ h4 {
   list-style-type: none;
   float: right;
   color: #f9e42e;
+  }
+  nav li{
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 15px;
+  margin: 10px;
+  font-weight: 300;
+  }
+  .mobile-nav {
+    display: none;
   }
   h2 {
     font-size: 40px;
