@@ -103,9 +103,11 @@ header h1{
 section {
   border-bottom: 2px solid black;
   width: 100%;
+  padding: 20px;
 }
 aside {
   width: 100%;
+  padding: 20px;
 }
 h2{
   font-size: 20px;
@@ -175,7 +177,6 @@ h4 {
 /* FOR TABLET/DESKTOP
 /*******************************************/
 @media only screen and (min-width: 768px) {
-
   h2 {
     font-size: 40px;
   }
