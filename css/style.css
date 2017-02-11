@@ -230,6 +230,7 @@ h4 {
     margin-right: 50px;
   }
   .ad {
+    display: inline;
     float: right;
     width: 210px;
     height: auto;
