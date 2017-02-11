@@ -182,8 +182,9 @@ h4 {
   list-style-type: none;
   float: right;
   color: #f9e42e;
+  display: inline-block;
   }
-  nav li{
+  .desktop-nav li { 
   display: inline-block;
   padding: 0 50px;
   font-size: 15px;
