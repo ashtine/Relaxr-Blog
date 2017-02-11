@@ -82,7 +82,6 @@ nav ul{
   list-style-type: none;
   float: right;
   color: #f9e42e;
-  display: none;
 }
 nav li{
   display: inline-block;
@@ -96,6 +95,11 @@ header h1{
   font-size: 24px;
   float: left;
   font-weight: 800;
+}
+.mobile-nav{
+  float: right;
+  height: 5px;
+  width: 10px;
 }
 /******************************************
 /* Main section
@@ -177,6 +181,12 @@ h4 {
 /* FOR TABLET/DESKTOP
 /*******************************************/
 @media only screen and (min-width: 768px) {
+  
+  .desktop-nav {
+  list-style-type: none;
+  float: right;
+  color: #f9e42e;
+  }
   h2 {
     font-size: 40px;
   }
