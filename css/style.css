@@ -151,7 +151,7 @@ p {
 aside p{ 
   font-size: 16px;
 }
-code {
+.left .read-more {
   text-align: right;
 }
 
