@@ -104,7 +104,7 @@ header h1{
 section {
   border-bottom: 2px solid black;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px;
   margin-left: 5px 50px ;
 }
 aside {
@@ -153,6 +153,9 @@ aside p{
 }
 .left .read-more {
   text-align: right;
+}
+.ad {
+  display: none;
 }
 
 /**************
@@ -224,6 +227,12 @@ h4 {
   }
   aside {
     width: 20%;
+    margin-right: 50px;
+  }
+  .ad {
+    float: right;
+    width: 210px;
+    height: auto;
     margin-right: 50px;
   }
 }
