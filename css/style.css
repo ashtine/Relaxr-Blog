@@ -9,6 +9,7 @@ Developer @GA in NYC
 /******************************************
 /* SETUP
 /*******************************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700,800');
 
 /* Box Model Hack */
 * {
@@ -26,16 +27,13 @@ Developer @GA in NYC
      line-height: 0;
      height: 0;
 }
-
 .clear {
   clear: both;
 }
-
 .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
-
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
@@ -49,7 +47,7 @@ body {
      background-color: #f0efef;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans',Helvetica, Arial, sans-serif;
 }
 
 .right {
